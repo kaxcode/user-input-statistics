@@ -12,8 +12,6 @@ loop do
     break
   end
 
-  total = total + user_inputs_number
-  count = count + 1
 end
 
 average = total / count

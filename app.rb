@@ -1,4 +1,5 @@
 user_inputs = []
+total = 0
 
 loop do
   puts "Please enter your favorite number(s)"
@@ -12,6 +13,6 @@ loop do
   end
 end
 
-total= user_inputs.inject(0){|sum, x| sum + x}
+total = user_inputs.inject(0) { |sum, value_from_array| sum + value_from_array }
 
 puts "The user has a total of #{user_inputs.length} favorite number(s). The average of the users favorite numbers total up to #{total}."
