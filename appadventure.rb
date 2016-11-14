@@ -7,7 +7,6 @@ loop do
     puts "Please enter your favorite number"
     user_input = gets.chomp
     user_input_as_number = Float(user_input)
-    # user_input_numbers << user_input_as_number
 
     rescue ArgumentError
     # Only get here if the Float fails...

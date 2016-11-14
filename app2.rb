@@ -12,8 +12,11 @@ loop do
     break
   end
 
+  total = total + user_inputs_number
+  count = count + 1
 end
+
 
 average = total / count
 
-puts "The user has a total of #{count} favorite number(s). The average of the users favorite numbers total up to #{total}."
+puts "The user has a total of #{count} favorite number(s). The average of the users favorite numbers total up to #{average}."
